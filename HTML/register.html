@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>PBInfo</title>
-<link rel="stylesheet" type="text/css" href="/css/register.css">
+  <title>PBInfo</title>
+  <link rel="stylesheet" type="text/css" href="/css/register.css">
+  <link rel="stylesheet" href="/css/navbar.css">
 
 </head>
+
 <body>
-<div class="navbar">
-  <a href="index.html" id="logo">LOGO</a>
-  <div class="dropdown">
-    <button class="dropbtn" onclick = "#">PROBLEME
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Clasa a IX-a</a>
-      <a href="#">Clasa a X-a</a>
-      <a href="#">Clasa a XI-a</a>
+  <div class="navbar">
+    <a href="index.html" id="logo">LOGO</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="#">PROBLEME
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Clasa a IX-a</a>
+        <a href="#">Clasa a X-a</a>
+        <a href="#">Clasa a XI-a</a>
 
+      </div>
     </div>
-  </div> 
-  <div class="dropdown">
-    <button class="dropbtn" >RESURSE
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="ResurseIX.html">Clasa a IX-a</a>
-      <a href="ResurseX.html">Clasa a X-a</a>
-      <a href="ResurseXI.html">Clasa a XI-a</a>
+    <div class="dropdown">
+      <button class="dropbtn">RESURSE
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="ResurseIX.html">Clasa a IX-a</a>
+        <a href="ResurseX.html">Clasa a X-a</a>
+        <a href="ResurseXI.html">Clasa a XI-a</a>
 
+      </div>
     </div>
+    <div class="right">
+      <a href="#"> Login </a>
+    </div>
+
   </div>
-  <div class="right">
-  	<a href="#"> Login </a>
-  	</div>
+  <form>
 
-</div>
-<form >
+    <div id="fill">
+      <center>Fill out the form</center>
+    </div>
+    <label for="fullname">Full name</label><br>
+    <input type="text" placeHolder="Your Full Name" name="fullname" required><br>
+    <label for="email">Email</label><br>
+    <input type="text" placeHolder="Your Email Adress" name="email" required><br>
+    <label for="city">City</label><br>
+    <input type="text" placeHolder="Your City" name="city" required><br>
+    <label for="password">Password</label><br>
+    <input type="password" name="password" placeholder="Your Password" required><br>
+    <label for="repeatpass">Type the password again</label><br>
+    <input type="password" name="repeatpass" placeholder="Repeat Your Password" required><br>
 
-	<div id="fill"><center>Fill out the form</center></div>
-	<label for="fullname" >Full name</label><br>
-	<input type="text" placeHolder="Your Full Name" name="fullname" required><br>
-	<label for="email" >Email</label><br>
-	<input type="text" placeHolder="Your Email Adress" name="email" required><br>
-	<label for="city">City</label><br>
-	<input type="text" placeHolder="Your City" name="city" required><br>
-	<label for="password" >Password</label><br>
-	<input type="password" name="password" placeholder="Your Password" required><br>
-	<label for="repeatpass" >Type the password again</label><br>
-	<input type="password" name="repeatpass" placeholder="Repeat Your Password" required><br>
-
-		<label class="toggle">
-        <input class="toggle__input" type="checkbox" checked>
-        <span class="toggle__label">
-          <span class="toggle__text"> I read and agree to <a href="#">Terms&Conditions</span>
-        </span>
-      </label><br>
-	<input type="submit" class="register" value="Sign up">
-</form>
+    <label class="toggle">
+      <input class="toggle__input" type="checkbox" checked>
+      <span class="toggle__label">
+        <span class="toggle__text"> I read and agree to <a href="#">Terms&Conditions</span>
+      </span>
+    </label><br>
+    <input type="submit" class="register" value="Sign up">
+  </form>
 
 
 
