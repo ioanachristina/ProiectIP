@@ -19,6 +19,8 @@ label{
 	font-size: 12pt;
 	text-align: left;
 	opacity: 0.5;
+	float: left;
+	margin-left: 525px;
 }
 input[type=text], input[type=password] {
   width: 40%;
@@ -38,6 +40,9 @@ input[type=text], input[type=password] {
   border: none;
   cursor: pointer;
   width: 35%;
+  margin-top:50px;
+  float: left;
+  margin-left: -370px;
 }
 
 .register:hover {
