@@ -1,0 +1,5 @@
+﻿Nume: Disable Account
+
+Definiție: boolean disableAccount ( string email ) { ... }
+
+Descriere: Funcția elimină din baza de date contul asociat adresei de e-mail specificate ca parametru. Utilizatorul poate apela această funcție acționând asupra butonului "Dezactivare cont" din cadrul profilului. Returnează true dacă acțiunea a fost efectuată cu succes și contul nu mai este stocat în baza de date, respectiv false dacă a intervenit o eroare.
