@@ -1,0 +1,7 @@
+﻿Nume: Sign Up
+
+Declarație: boolean signUp ( string name, string surname, string email, string password, string password_confirm ) { ... }
+
+Definiție curentă: https://github.com/ioanachristina/ProiectIP/blob/master/singUp.php
+
+Descriere: Funcția se ocupă de autentificarea utilizatorului pe server și crearea unui cont specific. Primește ca parametri textul introdus de către acesta în câmpurile de nume (string name), nume de familie (string surname), email (string email), parolă (string parolă) și confimare parolă (string password_confirm) și returnează true dacă autentificarea a avut loc cu succes, respectiv false în caz contrar (credențialele introduse nu respectă convențiile specifice, adresa de email se află deja în utilizare, probleme specifice server-side etc.)
