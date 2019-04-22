@@ -1,0 +1,5 @@
+﻿Nume: Send Problem
+
+Definiție: boolean sendProblem ( string text_enunt, string text_solutie, int nivel_de_dificultate, string solutie ) { ... }
+
+Descriere: Funcția trimite o problemă către baza de date a server-ului. Primește ca parametri enunțul problemei (string text_enunt), textul soluției (string text_solutie), nivelul de dificultate (int nivel_de_dificultate) și codul soluției, preluat de la funcția addSolutionCode (string solutie). Returnează true dacă problema a fost trimisă cu succes la server, respectiv false dacă a intervenit o eroare probleme specifice server-side.
