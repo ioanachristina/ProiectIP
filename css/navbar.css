@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
 }
@@ -22,11 +23,11 @@
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 16px;
     border: none;
     outline: none;
     color: white;
-   padding: 20px 30px;
+    padding: 20px 30px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -60,13 +61,14 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
-}.right {
+}
+.right {
     overflow: hidden;
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
 .right a{
-  float: right;
+    float: right;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -74,5 +76,5 @@
     text-decoration: none;
 }
 .right a:hover, .dropdown:hover .dropbtn {
-   background-color: salmon;
+    background-color: salmon;
 }

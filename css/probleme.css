@@ -3,7 +3,7 @@ html,body{
     height: 100%;
 }
 body{
-  background-color:white; 
+  background-color:white;
 }
 .div1{
 position: absolute;
@@ -165,49 +165,49 @@ color: #000000;
     top:60px;
     color: black;
     width: 668px;
-    
+
 }
 .hr2{
     position: absolute;
     top:120px;
     color: black;
     width: 668px;
-    
+
 }
 .hr3{
     position: absolute;
     top:180px;
     color: black;
     width: 668px;
-    
+
 }
 .hr4{
     position: absolute;
     top:240px;
     color: black;
     width: 668px;
-    
+
 }
 .hr5{
     position: absolute;
     top:300px;
     color: black;
     width: 668px;
-    
+
 }
 .hr6{
     position: absolute;
     top:360px;
     color: black;
     width: 668px;
-    
+
 }
 .hr7{
     position: absolute;
     top:420px;
     color: black;
     width: 668px;
-    
+
 }
 .button1
 {
