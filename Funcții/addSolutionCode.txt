@@ -1,0 +1,5 @@
+﻿Nume: Add Solution Code
+
+Declarație: boolean addSolutionCode ( FILE solution ) { ... }
+
+Descriere: Funcția este întâlnită în cadrul paginii de adăugare de probleme. Primește ca parametru un fișier local folosind file manager-ul specific și îl adaugă în memorie sub forma unei variabile de tip string care stochează conținutul propriu-zis, acest conținut urmând apoi să fie stocat în baza de date a serverului sub acțiunea funcției sendProblem, întâlnită pe aceeași pagină. Returnează true în cazul în care conținutul fișierului a fost încărcat cu succes în memorie, respectiv fals în cazul în care a intervenit o eroare sau fișierul nu are un format valid.
