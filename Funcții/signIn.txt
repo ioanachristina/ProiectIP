@@ -1,0 +1,7 @@
+﻿Nume: Sign In
+
+Declarație: boolean signIn ( string email, string password ) { ... }
+
+Definiție curentă: https://github.com/ioanachristina/ProiectIP/blob/master/login.php
+
+Descriere: Funcția se ocupă de logarea utilizatorului în cont. Primește ca parametri textul introdus de către acesta în câmpurile de e-mail (string email), respectiv parolă (string password) și returnează true dacă logarea a avut loc cu succes, respectiv false în caz contrar (credențialele introduse sunt incorecte, probleme specifice server-side etc.)
