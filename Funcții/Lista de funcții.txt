@@ -7,3 +7,7 @@
 4. boolean sendProblem ( string text_enunt, string text_solutie, int nivel_de_dificultate, string solutie ) { ... }
 
 5. boolean disableAccount ( string email ) { ... }
+
+6. boolean sendSolution ( string solutie ) { ... }
+
+7. int checkSolution ( string solutie ) { ... }
