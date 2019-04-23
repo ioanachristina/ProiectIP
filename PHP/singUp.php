@@ -39,7 +39,7 @@ if(isset($_POST['reg_user'])){
 			mysqli_query($db, $query);
 
 			$success_message = "<center>V-ati inregistrat cu succes! Acum va puteti loga.  
-									<a href='login.php'>Login </a></center>";
+									<a href='login.html'>Login </a></center>";
 			}
 	}
 	?>
