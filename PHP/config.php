@@ -6,6 +6,6 @@ session_start();
 	$password = "";
 	$errors = array(); 
 // connect to the database
-	$db = mysqli_connect('localhost', 'root', '22051998', 'twproiect');
+	$db = mysqli_connect('localhost', 'root', '', '');
 
 ?>

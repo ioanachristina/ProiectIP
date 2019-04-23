@@ -1,3 +1,4 @@
+<?php
 if(isset($_POST['reg_user'])){
 		//receive all input values from the form
 		$fullname = mysqli_real_escape_string($db,$_POST['fullname']);
@@ -33,16 +34,12 @@ if(isset($_POST['reg_user'])){
 		//Finally , register user is there are no errors in the form
 		if(!count($errors)){
 			$password = base64_encode($password_1); //encrypt the password before saving in database
-			$query="INSERT INTO users ( nume,prenume,username,email,localitate,parola)
+			$query="INSERT INTO utilizatrori( nume,prenume,username,email,localitate,parola)
 					VALUES ('$nume','$prenume','$username','$email','$localitate','$password')";
 			mysqli_query($db, $query);
-			$q = "SELECT user_id FROM USERS WHERE username='$username'";
-			$rw=mysqli_query($db,$q);
-			$ras=mysqli_fetch_array($rw,MYSQLI_ASSOC);
-			$idd=$ras['user_id'];
-			$qq="INSERT INTO user_role (user_id,role_id) values ('$idd',2)";
-			mysqli_query($db,$qq);
+
 			$success_message = "<center>V-ati inregistrat cu succes! Acum va puteti loga.  
 									<a href='login.php'>Login </a></center>";
 			}
 	}
+	?>
